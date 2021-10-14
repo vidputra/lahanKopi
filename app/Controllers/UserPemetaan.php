@@ -12,6 +12,14 @@ class UserPemetaan extends BaseController
         echo view('footer');
     }
 
+    function AboutUs()
+    {
+        // return view('add_user');
+        echo view('header');
+        echo view('about_us');
+        echo view('footer');
+    }
+
     //Form
     function FormAdd()
     {

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 2 | Dashboard</title>
+    <title>GIS Lahan Kopi</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
@@ -40,9 +40,9 @@
             <!-- Logo -->
             <a href="index2.html" class="logo">
                 <!-- mini logo for sidebar mini 50x50 pixels -->
-                <span class="logo-mini"><b>A</b>LT</span>
+                <span class="logo-mini"><b>GIS</b>!</span>
                 <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg"><b>Skripsi</b>KU!</span>
+                <span class="logo-lg"><b>GIS</b>Lahan Kopi</span>
             </a>
 
             <!-- Header Navbar: style can be found in header.less -->
@@ -90,11 +90,8 @@
                                 </li>
                                 <!-- Menu Footer-->
                                 <li class="user-footer">
-                                    <div class="pull-left">
-                                        <a href="#" class="btn btn-default btn-flat">Profile</a>
-                                    </div>
                                     <div class="pull-right">
-                                        <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                                        <a href="<?= base_url('Login/Logout') ?>" class="btn btn-default btn-flat">Sign out</a>
                                     </div>
                                 </li>
                             </ul>
@@ -149,6 +146,11 @@
                             <li class="active"><a href="<?= base_url('UserPemetaan') ?>"><i class="fa fa-circle-o"></i> Data Lahan</a></li>
                         </ul>
                     </li>
+                    <li>
+                        <a href="<?= base_url('UserPemetaan/AboutUs') ?>">
+                            <i class="fa fa-user-secret"></i><span>About Us</span>
+                        </a>
+                    </li>
                 </ul>
             </section>
             <!-- /.sidebar -->
@@ -160,13 +162,9 @@
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <h1>
-                    Dashboard
-                    <small>Version 2.0</small>
+                    SkripsiKU! Dashboard
+                    <small>Version 0.01.1</small>
                 </h1>
-                <ol class="breadcrumb">
-                    <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                    <li class="active">Dashboard</li>
-                </ol>
             </section>
 
             <!-- Main content -->
